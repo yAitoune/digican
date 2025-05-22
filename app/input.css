@@ -11,7 +11,7 @@ body {
 /* sz-navbar */
 :root {
   /* General */
-  --sz-navbar-height: 200px;
+  --sz-navbar-height: 110px;
   --sz-navbar-slide-speed: 0.3s;
   --sz-navbar-shadow-color: #ffffff33;
 
@@ -50,7 +50,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 70px;
+  height: 60px;
   background-color: white;
 }
 
