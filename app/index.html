@@ -9,81 +9,80 @@
     <title>digican</title>
   </head>
   <body>
-    <header class="sz-navbar px-4">
-      <div class="container xl:px-20 mx-auto">
-        <nav class="sz-container px-4 rounded-full">
-          <div
-            class="sz-logo w-[100px] h-[50px] flex items-center overflow-y-hidden"
-          >
-            <a href="/">
-              <img
-                class="w-full"
-                src="./assets/images/Layer_1.svg"
-                alt="Logo de digican"
-              />
-            </a>
-          </div>
-
-          <ul class="sz-menu flex md:gap-10 text-sm">
-            <li
-              class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
+    <header class="sz-navbar">
+      <div class="fixed top-1 px-4 w-full">
+        <div class="container xl:px-20 mx-auto">
+          <nav class="sz-container px-4 rounded-full">
+            <div
+              class="sz-logo w-[100px] h-[50px] flex items-center overflow-y-hidden"
             >
-              <a href="/">Accueil</a>
-            </li>
-            <li
-              class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
-            >
-              <a href="/">Notre Agence </a>
-            </li>
-            <li
-              class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
-            >
-              <a href="/">Marketing Digital</a>
-            </li>
-            <li
-              class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
-            >
-              <a href="/">Affichage publicitaire</a>
-            </li>
-            <li
-              class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
-            >
-              <a href="/">Blog</a>
-            </li>
-            <li
-              class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
-            >
-              <a href="/">Contact</a>
-            </li>
-
-            <li>
-              <a href="#" class="rounded-full bg-gray-200 py-3 px-10">
-                Nous contacter
+              <a href="/">
+                <img
+                  class="w-full"
+                  src="./assets/images/Layer_1.svg"
+                  alt="Logo de digican"
+                />
               </a>
-            </li>
-          </ul>
+            </div>
 
-          <div class="sz-burger">
-            <div class="sz-line1"></div>
-            <div class="sz-line2"></div>
-            <div class="sz-line3"></div>
-          </div>
-        </nav>
+            <ul class="sz-menu flex md:gap-10 text-sm">
+              <li
+                class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
+              >
+                <a href="/">Accueil</a>
+              </li>
+              <li
+                class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
+              >
+                <a href="/">Notre Agence </a>
+              </li>
+              <li
+                class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
+              >
+                <a href="/">Marketing Digital </a>
+              </li>
+              <li
+                class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
+              >
+                <a href="/">Affichage publicitaire</a>
+              </li>
+              <li
+                class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
+              >
+                <a href="/">Blog</a>
+              </li>
+              <li
+                class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
+              >
+                <a href="/">Contact</a>
+              </li>
+
+              <li>
+                <a href="#" class="rounded-full bg-gray-200 py-3 px-10">
+                  Nous contacter
+                </a>
+              </li>
+            </ul>
+
+            <div class="sz-burger">
+              <div class="sz-line1"></div>
+              <div class="sz-line2"></div>
+              <div class="sz-line3"></div>
+            </div>
+          </nav>
+        </div>
       </div>
     </header>
     <div class="sz-navbar-space"></div>
     <!-- landing -->
-    <section
-      class="bg-cover bg-no-repeat pt-40 py-32"
-      style="background-image: url('')"
-    >
+    <section class="pt-40 py-32 relative overflow-hidden">
       <div
-        class="container mx-auto xl:px-20 grid lg:grid-cols-2 gap-4 mt-20 lg:mt-0"
+        class="container mx-auto xl:px-20 grid lg:grid-cols-2 gap-4 mt-20 lg:mt-0 relative z-20"
       >
         <div class="px-4">
           <h1 class="text-6xl font-semibold mb-8">Solutions d'affichage</h1>
           <h2
-            class="text-6xl font-bold mb-8 bg-gradient-to-r from-[#F21818] to-[#FFBC2B] bg-clip-text text-transparent"
+            class="text-6xl pb-3 font-bold mb-8 bg-gradient-to-r from-[#F21818] to-[#FFBC2B] bg-clip-text text-transparent"
           >
             publicitaire et digital au Maroc
           </h2>
@@ -92,16 +91,39 @@
             et des solutions digitales à la hauteur de vos attentes.
           </p>
           <div class="flex flex-col md:flex-row gap-3 text-center">
-            <a
+            <!-- <a
               href=""
               class="text-white bg-gradient-to-r from-[#F21818] from-55% to-[#FFBC2B] rounded-full py-2 px-7"
               >Nous contacter
+            </a> -->
+            <a
+              href="#"
+              class="relative inline-block text-white font-semibold rounded-full py-2 px-7 overflow-hidden group"
+            >
+              <span
+                class="absolute inset-0 bg-gradient-to-r from-[#F21818] via-[#F21818] to-[#FFBC2B] bg-[length:150%_100%] bg-[position:50%_0] transition-all duration-500 ease-out group-hover:bg-[position:100%_0]"
+              ></span>
+              <span class="relative z-10">Nous contacter</span>
             </a>
             <a
-              href=""
-              class="border border-solid border-[#CD1A2D] text-[#CD1A2D] font-semibold rounded-full py-2 px-7"
-              >Notre agence
+              href="#"
+              class="relative inline-block overflow-hidden border border-[#CD1A2D] text-[#CD1A2D] font-semibold rounded-full py-2 px-7 transition-all duration-500 group"
+            >
+              <span
+                class="absolute inset-0 bg-[#CD1A2D] translate-x-full group-hover:translate-x-0 transition-transform duration-600 ease-out"
+              ></span>
+              <span
+                class="relative z-10 group-hover:text-white transition-colors duration-500"
+              >
+                Notre agence
+              </span>
             </a>
+
+            <!-- <a
+              href=""
+              class="border border-solid border-[#CD1A2D] text-[#CD1A2D] font-semibold rounded-full py-2 px-7 transition-all duration-500 ease-out"
+              >Notre agence
+            </a> -->
           </div>
         </div>
       </div>
@@ -136,10 +158,23 @@
               votre image de marque.
             </p>
             <a
+              href="#"
+              class="relative inline-block overflow-hidden border border-white text-white font-semibold rounded-full py-2 px-7 transition-all duration-500 group"
+            >
+              <span
+                class="absolute inset-0 bg-white translate-x-full group-hover:translate-x-0 transition-transform duration-600 ease-out"
+              ></span>
+              <span
+                class="relative z-10 group-hover:text-[#CD1A2D] transition-colors duration-500"
+              >
+                Notre agence
+              </span>
+            </a>
+            <!-- <a
               href=""
               class="border border-solid border-white text-white font-semibold rounded-full py-2 px-7"
               >Notre agence
-            </a>
+            </a> -->
           </div>
           <div class="flex flex-row overflow-hidden gap-7 py-4">
             <div class="min-w-[500px]">
@@ -183,14 +218,37 @@
             marque pour maximiser votre impact publicitaire.
           </p>
           <div class="flex flex-col md:flex-row gap-3 text-center">
-            <a href="" class="text-white bg-[#F21818] rounded-full py-2 px-7"
-              >Marketing Digital
-            </a>
             <a
+              href="#"
+              class="relative inline-block text-white font-semibold rounded-full py-2 px-7 overflow-hidden group"
+            >
+              <span
+                class="absolute inset-0 transition-all duration-500 ease-out bg-gradient-to-r from-[#F21818] via-[#F21818] to-[#FFBC2B] bg-[length:200%_100%] bg-left group-hover:bg-right"
+              ></span>
+              <span class="relative z-10">Marketing Digital</span>
+            </a>
+            <!-- <a href="" class="text-white bg-[#F21818] rounded-full py-2 px-7"
+              >Marketing Digital
+            </a> -->
+            <a
+              href="#"
+              class="relative inline-block overflow-hidden border border-[#CD1A2D] text-[#CD1A2D] font-semibold rounded-full py-2 px-7 transition-all duration-500 group"
+            >
+              <span
+                class="absolute inset-0 bg-[#CD1A2D] translate-x-full group-hover:translate-x-0 transition-transform duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+              ></span>
+              <span
+                class="relative z-10 group-hover:text-white transition-colors duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+              >
+                Affiche publicitaire
+              </span>
+            </a>
+
+            <!-- <a
               href=""
               class="border border-solid border-[#CD1A2D] text-[#CD1A2D] font-semibold rounded-full py-2 px-7"
               >Affiche publicitaire
-            </a>
+            </a> -->
           </div>
         </div>
         <!-- grid container -->
@@ -200,7 +258,7 @@
             class="bg-gradient-to-br from-[#F21818] to-[#FFBC2B] p-[1px] rounded-lg"
           >
             <div
-              class="relative bg-cover bg-center bg-no-repeat rounded-lg overflow-hidden min-h-[350px] lg:min-h-[450px]"
+              class="relative bg-cover bg-bottom-right bg-no-repeat rounded-lg overflow-hidden min-h-[450px]"
               style="background-image: url('/app/assets/images/4.jpg')"
             >
               <div class="relative p-8 flex flex-col gap-6 h-full">
@@ -215,10 +273,24 @@
                 </div>
                 <a
                   href="#"
+                  class="relative mt-6 self-start overflow-hidden border border-[#CD1A2D] text-[#CD1A2D] font-semibold rounded-full py-2 px-7 transition-all duration-500 group"
+                >
+                  <span
+                    class="absolute inset-0 bg-[#CD1A2D] translate-x-full group-hover:translate-x-0 transition-transform duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+                  ></span>
+                  <span
+                    class="relative z-10 group-hover:text-white transition-colors duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+                  >
+                    Découvrir &gt
+                  </span>
+                </a>
+
+                <!-- <a
+                  href="#"
                   class="mt-6 self-start border border-solid border-[#CD1A2D] text-[#CD1A2D] rounded-full py-2 px-7"
                 >
                   Découvrir &gt;
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
@@ -226,7 +298,7 @@
             class="bg-gradient-to-br from-[#F21818] to-[#FFBC2B] p-[1px] rounded-lg"
           >
             <div
-              class="relative bg-cover bg-center bg-no-repeat rounded-lg overflow-hidden min-h-[350px] lg:min-h-[450px]"
+              class="relative bg-cover bg-bottom-right bg-no-repeat rounded-lg overflow-hidden min-h-[450px]"
               style="background-image: url('/app/assets/images/2.jpg')"
             >
               <div class="relative p-8 flex flex-col gap-6 h-full">
@@ -241,9 +313,16 @@
                 </div>
                 <a
                   href="#"
-                  class="mt-6 self-start border border-solid border-[#CD1A2D] text-[#CD1A2D] rounded-full py-2 px-7"
+                  class="relative mt-6 self-start overflow-hidden border border-[#CD1A2D] text-[#CD1A2D] font-semibold rounded-full py-2 px-7 transition-all duration-500 group"
                 >
-                  Découvrir &gt;
+                  <span
+                    class="absolute inset-0 bg-[#CD1A2D] translate-x-full group-hover:translate-x-0 transition-transform duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+                  ></span>
+                  <span
+                    class="relative z-10 group-hover:text-white transition-colors duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+                  >
+                    Découvrir &gt
+                  </span>
                 </a>
               </div>
             </div>
@@ -252,7 +331,7 @@
             class="bg-gradient-to-br from-[#F21818] to-[#FFBC2B] p-[1px] rounded-lg"
           >
             <div
-              class="relative bg-cover bg-center bg-no-repeat rounded-lg overflow-hidden min-h-[350px] lg:min-h-[450px]"
+              class="relative bg-cover bg-bottom-right bg-no-repeat rounded-lg overflow-hidden min-h-[450px]"
               style="background-image: url('/app/assets/images/3.jpg')"
             >
               <div class="relative p-8 flex flex-col gap-6 h-full">
@@ -267,9 +346,16 @@
                 </div>
                 <a
                   href="#"
-                  class="mt-6 self-start border border-solid border-[#CD1A2D] text-[#CD1A2D] rounded-full py-2 px-7"
+                  class="relative mt-6 self-start overflow-hidden border border-[#CD1A2D] text-[#CD1A2D] font-semibold rounded-full py-2 px-7 transition-all duration-500 group"
                 >
-                  Découvrir &gt;
+                  <span
+                    class="absolute inset-0 bg-[#CD1A2D] translate-x-full group-hover:translate-x-0 transition-transform duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+                  ></span>
+                  <span
+                    class="relative z-10 group-hover:text-white transition-colors duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+                  >
+                    Découvrir &gt
+                  </span>
                 </a>
               </div>
             </div>
@@ -278,7 +364,7 @@
             class="bg-gradient-to-br from-[#F21818] to-[#FFBC2B] p-[1px] rounded-lg"
           >
             <div
-              class="relative bg-cover bg-center bg-no-repeat rounded-lg overflow-hidden min-h-[350px] lg:min-h-[450px]"
+              class="relative bg-cover bg-bottom-right bg-no-repeat rounded-lg overflow-hidden min-h-[450px]"
               style="background-image: url('/app/assets/images/5.jpg')"
             >
               <div class="relative p-8 flex flex-col gap-6 h-full">
@@ -291,9 +377,16 @@
                 </div>
                 <a
                   href="#"
-                  class="mt-6 self-start border border-solid border-[#CD1A2D] text-[#CD1A2D] rounded-full py-2 px-7"
+                  class="relative mt-6 self-start overflow-hidden border border-[#CD1A2D] text-[#CD1A2D] font-semibold rounded-full py-2 px-7 transition-all duration-500 group"
                 >
-                  Découvrir &gt;
+                  <span
+                    class="absolute inset-0 bg-[#CD1A2D] translate-x-full group-hover:translate-x-0 transition-transform duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+                  ></span>
+                  <span
+                    class="relative z-10 group-hover:text-white transition-colors duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+                  >
+                    Découvrir &gt
+                  </span>
                 </a>
               </div>
             </div>
@@ -358,8 +451,10 @@
         </div>
 
         <!-- grid container -->
-        <div class="grid lg:grid-cols-3 items-stretch gap-5">
-          <div class="lg:col-span-2 h-full flex flex-col">
+        <div class="grid lg:grid-cols-3 items-stretch gap-x-4 gap-y-6">
+          <div
+            class="md:col-span-3 lg:col-span-2 h-full flex flex-col rounded-b-xl overflow-hidden"
+          >
             <div class="h-[300px]">
               <img
                 class="w-full h-full object-cover"
@@ -385,14 +480,14 @@
               </div>
               <a
                 href=""
-                class="bg-gradient-to-r from-[#F21818] via-[#F84A1A] to-[#FFBC2B] bg-clip-text text-transparent font-semibold rounded-full py-2 px-7 self-start"
+                class="bg-gradient-to-r from-[#F21818] via-[#F84A1A] to-[#FFBC2B] bg-clip-text text-transparent font-semibold rounded-full py-2 px-7 self-start hover:outline-1 hover:outline-[#F84A1A] ml-5 mb-5"
               >
                 Read more &gt;
               </a>
             </div>
           </div>
 
-          <div class="h-full flex flex-col">
+          <div class="h-full flex flex-col rounded-xl overflow-hidden">
             <div class="h-[300px]">
               <img
                 class="w-full h-full object-cover"
@@ -409,14 +504,14 @@
               </div>
               <a
                 href=""
-                class="bg-gradient-to-r from-[#F21818] via-[#F84A1A] to-[#FFBC2B] bg-clip-text text-transparent font-semibold rounded-full py-2 px-7 self-start"
+                class="bg-gradient-to-r from-[#F21818] via-[#F84A1A] to-[#FFBC2B] bg-clip-text text-transparent font-semibold rounded-full py-2 px-7 self-start hover:outline-1 hover:outline-[#F84A1A] ml-5 mb-5"
               >
                 Read more &gt;
               </a>
             </div>
           </div>
 
-          <div class="h-full flex flex-col">
+          <div class="h-full flex flex-col rounded-xl overflow-hidden">
             <div class="h-[300px]">
               <img
                 class="w-full h-full object-cover"
@@ -434,14 +529,14 @@
               </div>
               <a
                 href=""
-                class="bg-gradient-to-r from-[#F21818] via-[#F84A1A] to-[#FFBC2B] bg-clip-text text-transparent font-semibold rounded-full py-2 px-7 self-start"
+                class="bg-gradient-to-r from-[#F21818] via-[#F84A1A] to-[#FFBC2B] bg-clip-text text-transparent font-semibold rounded-full py-2 px-7 self-start hover:outline-1 hover:outline-[#F84A1A] ml-5 mb-5"
               >
                 Read more &gt;
               </a>
             </div>
           </div>
 
-          <div class="h-full flex flex-col">
+          <div class="h-full flex flex-col rounded-xl overflow-hidden">
             <div class="h-[300px]">
               <img
                 class="w-full h-full object-cover"
@@ -459,14 +554,14 @@
               </div>
               <a
                 href=""
-                class="bg-gradient-to-r from-[#F21818] via-[#F84A1A] to-[#FFBC2B] bg-clip-text text-transparent font-semibold rounded-full py-2 px-7 self-start"
+                class="bg-gradient-to-r from-[#F21818] via-[#F84A1A] to-[#FFBC2B] bg-clip-text text-transparent font-semibold rounded-full py-2 px-7 self-start hover:outline-1 hover:outline-[#F84A1A] ml-5 mb-5"
               >
                 Read more &gt;
               </a>
             </div>
           </div>
 
-          <div class="h-full flex flex-col">
+          <div class="h-full flex flex-col rounded-xl overflow-hidden">
             <div class="h-[300px]">
               <img
                 class="w-full h-full object-cover"
@@ -483,7 +578,7 @@
               </div>
               <a
                 href=""
-                class="bg-gradient-to-r from-[#F21818] via-[#F84A1A] to-[#FFBC2B] bg-clip-text text-transparent font-semibold rounded-full py-2 px-7 self-start"
+                class="bg-gradient-to-r from-[#F21818] via-[#F84A1A] to-[#FFBC2B] bg-clip-text text-transparent font-semibold rounded-full py-2 px-7 self-start hover:outline-1 hover:outline-[#F84A1A] ml-5 mb-5"
               >
                 Read more &gt;
               </a>
@@ -492,10 +587,20 @@
         </div>
         <div class="flex justify-center mt-8">
           <a
+            href="#"
+            class="relative inline-block text-white font-semibold rounded-full py-2 px-7 overflow-hidden group"
+          >
+            <span
+              class="absolute inset-0 transition-all duration-500 ease-out bg-gradient-to-r from-[#F21818] via-[#F21818] to-[#FFBC2B] bg-[length:200%_100%] bg-left group-hover:bg-right"
+            ></span>
+            <span class="relative z-10">Voir plus d'article</span>
+          </a>
+
+          <!-- <a
             href=""
             class="text-center inline-block w-full md:w-fit bg-[#CD1A2D] text-white font-semibold rounded-full py-2 px-7"
             >Voir plus d'article
-          </a>
+          </a> -->
         </div>
       </div>
     </section>
@@ -523,10 +628,20 @@
               personnalisée et une stratégie sur-mesure.
             </p>
             <a
+              href="#"
+              class="relative lg:self-start text-white font-semibold rounded-full py-2 px-7 overflow-hidden group"
+            >
+              <span
+                class="absolute inset-0 bg-gradient-to-r from-[#F21818] via-[#F21818] to-[#FFBC2B] bg-[length:150%_100%] bg-[position:5 0%_0] transition-all duration-500 ease-out group-hover:bg-[position:100%_0]"
+              ></span>
+              <span class="relative z-10">Demandez un Devis</span>
+            </a>
+
+            <!-- <a
               href=""
               class="text-white lg:self-start font-semibold bg-gradient-to-r from-[#F21818] from-55% to-[#FFBC2B] rounded-full py-2 px-7"
               >Demandez un Devis
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
@@ -621,12 +736,13 @@
             </ul>
             <div class="flex flex-col gap-0.5">
               <h3 class="text-[#CD1A2D]">Contactez-nous</h3>
-              <span>080 200 60 60</span>
-              <span>contact@digican.ma</span>
+              <a href="/"> <span>080 200 60 60</span></a>
+              <a href="/"> <span>contact@digican.ma</span></a>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <script src="/app/main.js"></script>
   </body>
 </html>
