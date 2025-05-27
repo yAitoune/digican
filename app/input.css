@@ -5,6 +5,7 @@ body {
   font-style: normal;
   scroll-behavior: smooth;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 
@@ -76,6 +77,21 @@ body {
   /* color: var(--sz-navbar-text-color); */
   text-decoration: none;
   transition: all 0.3s;
+}
+
+
+
+
+
+
+
+/* Inversion de l'ordre sur desktop */
+.grid-item.inverse {
+  direction: rtl;
+}
+
+.grid-item.inverse>* {
+  direction: ltr;
 }
 
 /*
