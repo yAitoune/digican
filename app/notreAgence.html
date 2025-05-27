@@ -78,7 +78,7 @@
     <section class="py-18">
       <div class="container mx-auto px-4 xl:px-20">
         <div class="grid lg:grid-cols-2 gap-10">
-          <div>
+          <div class="p-4">
             <h1 class="text-6xl pb-3 mb-8">
               Une agence de
               <span
@@ -126,9 +126,9 @@
         >
           <!-- Bloc 1 -->
           <div
-            class="grid-item grid grid-cols-1 lg:grid-cols-2 min-h-auto lg:min-h-[560px] gap-8"
+            class="relative grid-item grid grid-cols-1 lg:grid-cols-2 min-h-auto lg:min-h-[560px] gap-8 bg-[#ffe0de] p-16 rounded-tr-4xl rounded-br-4xl after:absolute before:content-[''] before:top-0 before:bottom-0 before:bg-white before:w-10 before:rounded-tr-full before:absolute"
           >
-            <div class="text flex flex-col justify-center h-full gap-8">
+            <div class="text flex flex-col justify-center h-full gap-8 p-4">
               <h2 class="text-4xl sm:text-5xl lg:text-6xl pb-3">
                 Nos services en publicité et communication
               </h2>
@@ -158,7 +158,7 @@
 
           <!-- Bloc 2 -->
           <div
-            class="grid-item inverse grid grid-cols-1 lg:grid-cols-2 min-h-auto lg:min-h-[560px] gap-8"
+            class="relative grid-item inverse grid grid-cols-1 lg:grid-cols-2 min-h-auto lg:min-h-[560px] gap-8 bg-[#fff7ab] rounded-tl-4xl rounded-bl-4xl p-16 after:absolute after:content-[''] after:top-0 after:bottom-0 after:bg-white after:w-10 after:rounded-tl-full"
           >
             <div class="text flex flex-col justify-center h-full p-4 gap-8">
               <h2 class="text-4xl sm:text-5xl lg:text-6xl">
@@ -190,7 +190,13 @@
             </div>
           </div>
         </div>
-        <div class="grid lg:grid-cols-2 mt-16">
+
+        <h2
+          class="bg-red-100 px-4 inline-block py-1 rounded-full text-red-500 text-[12px] mb-8 mt-20"
+        >
+          Pourquoi nous choisir ?
+        </h2>
+        <div class="grid lg:grid-cols-2">
           <h2 class="text-4xl sm:text-5xl lg:text-6xl">
             Pourquoi choisir notre
             <span
@@ -200,7 +206,7 @@
             >?
           </h2>
         </div>
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-20">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-16">
           <div
             class="bg-gradient-to-br from-[#F21818] to-[#FFBC2B] p-[1px] rounded-2xl"
           >
@@ -330,6 +336,59 @@
                 </p>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-15">
+      <div class="container mx-auto px-4">
+        <h2
+          class="bg-red-100 px-4 inline-block py-1 rounded-full text-red-500 text-[12px] mb-8"
+        >
+          Contactez un expert
+        </h2>
+        <div class="grid lg:grid-cols-2">
+          <div class="flex flex-col text-center lg:text-start gap-10">
+            <h2 class="text-5xl font-bold">
+              Discutons de votre
+              <span
+                class="bg-gradient-to-r from-[#F21818] to-[#FFBC2B] bg-clip-text text-transparent"
+                >projet publicitaire</span
+              >
+            </h2>
+            <p>
+              Vous avez un projet de communication ou de publicité en tête ?
+              Grâce à l’expertise en
+              <span class="font-bold">communication marketing</span> de notre
+              agence de publicité, nous développons des campagnes publicitaires
+              créatives et impactantes sur divers médias, en intégrant des
+              techniques de <span class="font-bold"> branding</span>, de
+              communication visuelle, et de communication interne et externe.
+              <br />
+              Prenez contact avec notre agence de publicité pour planifier votre
+              prochaine campagne publicitaire, refaire votre image de marque, ou
+              pour toute demande de devis. Nous serons ravis de répondre à vos
+              besoins et de vous aider à atteindre vos objectifs. Nos solutions
+              d'affichage publicitaire et de communication digitale sont conçues
+              pour répondre à vos besoins.
+            </p>
+
+            <a
+              href="#"
+              class="relative lg:self-start text-white font-semibold rounded-full py-2 px-7 overflow-hidden group"
+            >
+              <span
+                class="absolute inset-0 bg-gradient-to-r from-[#F21818] via-[#F21818] to-[#FFBC2B] bg-[length:150%_100%] bg-[position:5 0%_0] transition-all duration-500 ease-out group-hover:bg-[position:100%_0]"
+              ></span>
+              <span class="relative z-10">Contactez un expert </span>
+            </a>
+
+            <!-- <a
+              href=""
+              class="text-white lg:self-start font-semibold bg-gradient-to-r from-[#F21818] from-55% to-[#FFBC2B] rounded-full py-2 px-7"
+              >Demandez un Devis
+            </a> -->
           </div>
         </div>
       </div>
