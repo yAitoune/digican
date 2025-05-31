@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="input.css" />
+    <link rel="stylesheet" href="output.css" />
+
+    <title>Community management</title>
+  </head>
+  <body>
+    <header class="sz-navbar !bg-none bg-transparent w-full px-4">
+      <div class="container xl:px-20 mx-auto">
+        <nav class="sz-container px-4 rounded-full">
+          <div
+            class="sz-logo w-[100px] h-[50px] flex items-center overflow-y-hidden"
+          >
+            <a href="/">
+              <img
+                class="w-full"
+                src="./assets/images/Layer_1.svg"
+                alt="Logo de digican"
+              />
+            </a>
+          </div>
+
+          <ul class="sz-menu flex md:gap-10 text-sm">
+            <li
+              class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
+            >
+              <a href="/">Accueil</a>
+            </li>
+            <li
+              class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
+            >
+              <a href="/">Notre Agence </a>
+            </li>
+            <li
+              class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
+            >
+              <a href="/">Marketing Digital </a>
+            </li>
+            <li
+              class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
+            >
+              <a href="/">Affichage publicitaire</a>
+            </li>
+            <li
+              class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
+            >
+              <a href="/">Blog</a>
+            </li>
+            <li
+              class="transition-all hover:text-primary hover:text-shadow-2xs hover:text-shadow-white font-semibold"
+            >
+              <a href="/">Contact</a>
+            </li>
+
+            <li>
+              <a href="#" class="rounded-full bg-gray-200 py-3 px-10">
+                Nous contacter
+              </a>
+            </li>
+          </ul>
+
+          <div class="sz-burger">
+            <div class="sz-line1"></div>
+            <div class="sz-line2"></div>
+            <div class="sz-line3"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <!-- banner -->
+    <section class="min-h-[500px] bg-[#bf252a] py-28">
+      <div class="container mx-auto px-4 xl:px-20">
+        <h2
+          class="bg-[#E64B50] font-semibold px-4 inline-block py-1 rounded-full text-white text-[12px] mb-8"
+        >
+          Accueil > blogs
+        </h2>
+        <div class="grid lg:grid-cols-2">
+          <div class="flex flex-col">
+            <h1 class="text-4xl/snug font-bold text-white mb-8">
+              Découvrez les derniers articles de notre blog de marketing au
+              Maroc
+            </h1>
+            <p class="text-white font-light">
+              Bienvenue sur le blog de Digican, votre source d’inspiration et
+              d’expertise en
+              <span class="font-bold">marketing digital au Maroc</span>. Ici,
+              nous analysons les tendances et partageons des stratégies
+              efficaces pour booster votre visibilité et renforcer votre image
+              de marque. Découvrez des conseils pratiques sur la publicité en
+              ligne, les campagnes sponsorisées et l’optimisation des réseaux
+              sociaux pour atteindre vos objectifs marketing. <br />
+              Nous explorons également l’impact de
+              <span class="font-bold">l’affichage publicitaire</span> et des
+              <span class="font-bold"> panneaux publicitaires</span> sur la
+              communication des entreprises. Comment choisir le bon emplacement
+              ? Quels formats garantissent une visibilité maximale ? Nos
+              articles vous aideront à tirer parti de ces supports pour capter
+              l’attention et marquer les esprits.
+              <br />
+              Que vous soyez une entreprise locale ou une grande marque, nos
+              conseils et études de cas vous aideront à optimiser votre
+              communication et toucher votre audience.
+            </p>
+          </div>
+
+          <div
+            class="w-full object-cover flex justify-center items-center"
+          ></div>
+        </div>
+      </div>
+    </section>
+    <section class="p-4">
+      <!-- section blog container -->
+      <div
+        class="max-w-[500px] md:max-w-[760px] lg:max-w-[1020px] xl:max-w-[1200px] mx-auto relative -mt-24 bg-white p-8"
+      >
+        <!-- filtre blog  -->
+        <div class="mb-8">
+          <h3 class="font-bold mb-4">Filtre par service</h3>
+          <div class="flex flex-wrap gap-3">
+            <a
+              href="#"
+              class="relative inline-block overflow-hidden border border-[#CD1A2D] text-[#CD1A2D] font-semibold rounded-full py-2 px-3 transition-all duration-500 group"
+            >
+              <span
+                class="absolute inset-0 bg-[#CD1A2D] translate-x-full group-hover:translate-x-0 transition-transform duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+              ></span>
+              <span
+                class="relative z-10 group-hover:text-white transition-colors duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+              >
+                All
+              </span>
+            </a>
+            <a
+              href="#"
+              class="relative inline-block overflow-hidden border border-[#CD1A2D] text-[#CD1A2D] font-semibold rounded-full py-2 px-3 transition-all duration-500 group"
+            >
+              <span
+                class="absolute inset-0 bg-[#CD1A2D] translate-x-full group-hover:translate-x-0 transition-transform duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+              ></span>
+              <span
+                class="relative z-10 group-hover:text-white transition-colors duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+              >
+                Panneau publicitaire
+              </span>
+            </a>
+
+            <a
+              href="#"
+              class="relative inline-block overflow-hidden border border-[#CD1A2D] text-[#CD1A2D] font-semibold rounded-full py-2 px-3 transition-all duration-500 group"
+            >
+              <span
+                class="absolute inset-0 bg-[#CD1A2D] translate-x-full group-hover:translate-x-0 transition-transform duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+              ></span>
+              <span
+                class="relative z-10 group-hover:text-white transition-colors duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+              >
+                publicité en ligne
+              </span>
+            </a>
+
+            <a
+              href="#"
+              class="relative inline-block overflow-hidden border border-[#CD1A2D] text-[#CD1A2D] font-semibold rounded-full py-2 px-3 transition-all duration-500 group"
+            >
+              <span
+                class="absolute inset-0 bg-[#CD1A2D] translate-x-full group-hover:translate-x-0 transition-transform duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+              ></span>
+              <span
+                class="relative z-10 group-hover:text-white transition-colors duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+              >
+                Affichage publicitaire
+              </span>
+            </a>
+
+            <a
+              href="#"
+              class="relative inline-block overflow-hidden border border-[#CD1A2D] text-[#CD1A2D] font-semibold rounded-full py-2 px-3 transition-all duration-500 group"
+            >
+              <span
+                class="absolute inset-0 bg-[#CD1A2D] translate-x-full group-hover:translate-x-0 transition-transform duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+              ></span>
+              <span
+                class="relative z-10 group-hover:text-white transition-colors duration-700 ease-[cubic-bezier(0.25,0.8,0.25,1)]"
+              >
+                Marketing digital
+              </span>
+            </a>
+          </div>
+        </div>
+        <!-- blogs grid -->
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+          <!-- bloc -->
+          <div class="outline-1 outline-gray-400 rounded-lg overflow-hidden">
+            <div class="h-[200px]">
+              <img
+                class="w-full h-full object-cover"
+                src="/app/assets/images/blog.png"
+                alt=""
+              />
+            </div>
+
+            <div class="p-4 gap-3 flex flex-col justify-between grow">
+              <div class="gap-3 flex flex-col">
+                <h2 class="text-red-600">Community management</h2>
+                <h3 class="text-black text-[1rem] font-bold">
+                  comment construire et fidéliser une communauté B2B
+                </h3>
+                <p class="text-black text-sm">
+                  À l’heure où tout le monde veut « créer sa communauté »,
+                  comment fonctionnent celles qui existent déjà ? Noémie Coget,
+                  directrice générale de Tech.Rocks, répond à nos questions.
+                </p>
+              </div>
+              <a href="" class="text-red-600"> En savoir plus &gt; </a>
+            </div>
+          </div>
+          <!-- bloc -->
+          <div class="outline-1 outline-gray-400 rounded-lg overflow-hidden">
+            <div class="h-[200px]">
+              <img
+                class="w-full h-full object-cover"
+                src="/app/assets/images/blog.png"
+                alt=""
+              />
+            </div>
+
+            <div class="p-4 gap-3 flex flex-col justify-between grow">
+              <div class="gap-3 flex flex-col">
+                <h2 class="text-red-600">Community management</h2>
+                <h3 class="text-black text-[1rem] font-bold">
+                  comment construire et fidéliser une communauté B2B
+                </h3>
+                <p class="text-black text-sm">
+                  À l’heure où tout le monde veut « créer sa communauté »,
+                  comment fonctionnent celles qui existent déjà ? Noémie Coget,
+                  directrice générale de Tech.Rocks, répond à nos questions.
+                </p>
+              </div>
+              <a href="" class="text-red-600"> En savoir plus &gt; </a>
+            </div>
+          </div>
+          <!-- bloc -->
+          <div class="outline-1 outline-gray-400 rounded-lg overflow-hidden">
+            <div class="h-[200px]">
+              <img
+                class="w-full h-full object-cover"
+                src="/app/assets/images/blog.png"
+                alt=""
+              />
+            </div>
+
+            <div class="p-4 gap-3 flex flex-col justify-between grow">
+              <div class="gap-3 flex flex-col">
+                <h2 class="text-red-600">Community management</h2>
+                <h3 class="text-black text-[1rem] font-bold">
+                  comment construire et fidéliser une communauté B2B
+                </h3>
+                <p class="text-black text-sm">
+                  À l’heure où tout le monde veut « créer sa communauté »,
+                  comment fonctionnent celles qui existent déjà ? Noémie Coget,
+                  directrice générale de Tech.Rocks, répond à nos questions.
+                </p>
+              </div>
+              <a href="" class="text-red-600"> En savoir plus &gt; </a>
+            </div>
+          </div>
+          <!-- bloc -->
+          <div class="outline-1 outline-gray-400 rounded-lg overflow-hidden">
+            <div class="h-[200px]">
+              <img
+                class="w-full h-full object-cover"
+                src="/app/assets/images/blog.png"
+                alt=""
+              />
+            </div>
+
+            <div class="p-4 gap-3 flex flex-col justify-between grow">
+              <div class="gap-3 flex flex-col">
+                <h2 class="text-red-600">Community management</h2>
+                <h3 class="text-black text-[1rem] font-bold">
+                  comment construire et fidéliser une communauté B2B
+                </h3>
+                <p class="text-black text-sm">
+                  À l’heure où tout le monde veut « créer sa communauté »,
+                  comment fonctionnent celles qui existent déjà ? Noémie Coget,
+                  directrice générale de Tech.Rocks, répond à nos questions.
+                </p>
+              </div>
+              <a href="" class="text-red-600"> En savoir plus &gt; </a>
+            </div>
+          </div>
+          <!-- bloc -->
+          <div class="outline-1 outline-gray-400 rounded-lg overflow-hidden">
+            <div class="h-[200px]">
+              <img
+                class="w-full h-full object-cover"
+                src="/app/assets/images/blog.png"
+                alt=""
+              />
+            </div>
+
+            <div class="p-4 gap-3 flex flex-col justify-between grow">
+              <div class="gap-3 flex flex-col">
+                <h2 class="text-red-600">Community management</h2>
+                <h3 class="text-black text-[1rem] font-bold">
+                  comment construire et fidéliser une communauté B2B
+                </h3>
+                <p class="text-black text-sm">
+                  À l’heure où tout le monde veut « créer sa communauté »,
+                  comment fonctionnent celles qui existent déjà ? Noémie Coget,
+                  directrice générale de Tech.Rocks, répond à nos questions.
+                </p>
+              </div>
+              <a href="" class="text-red-600"> En savoir plus &gt; </a>
+            </div>
+          </div>
+          <!-- bloc -->
+          <div class="outline-1 outline-gray-400 rounded-lg overflow-hidden">
+            <div class="h-[200px]">
+              <img
+                class="w-full h-full object-cover"
+                src="/app/assets/images/blog.png"
+                alt=""
+              />
+            </div>
+
+            <div class="p-4 gap-3 flex flex-col justify-between grow">
+              <div class="gap-3 flex flex-col">
+                <h2 class="text-red-600">Community management</h2>
+                <h3 class="text-black text-[1rem] font-bold">
+                  comment construire et fidéliser une communauté B2B
+                </h3>
+                <p class="text-black text-sm">
+                  À l’heure où tout le monde veut « créer sa communauté »,
+                  comment fonctionnent celles qui existent déjà ? Noémie Coget,
+                  directrice générale de Tech.Rocks, répond à nos questions.
+                </p>
+              </div>
+              <a href="" class="text-red-600"> En savoir plus &gt; </a>
+            </div>
+          </div>
+          <!-- bloc -->
+          <div class="outline-1 outline-gray-400 rounded-lg overflow-hidden">
+            <div class="h-[200px]">
+              <img
+                class="w-full h-full object-cover"
+                src="/app/assets/images/blog.png"
+                alt=""
+              />
+            </div>
+
+            <div class="p-4 gap-3 flex flex-col justify-between grow">
+              <div class="gap-3 flex flex-col">
+                <h2 class="text-red-600">Community management</h2>
+                <h3 class="text-black text-[1rem] font-bold">
+                  comment construire et fidéliser une communauté B2B
+                </h3>
+                <p class="text-black text-sm">
+                  À l’heure où tout le monde veut « créer sa communauté »,
+                  comment fonctionnent celles qui existent déjà ? Noémie Coget,
+                  directrice générale de Tech.Rocks, répond à nos questions.
+                </p>
+              </div>
+              <a href="" class="text-red-600"> En savoir plus &gt; </a>
+            </div>
+          </div>
+          <!-- bloc -->
+          <div class="outline-1 outline-gray-400 rounded-lg overflow-hidden">
+            <div class="h-[200px]">
+              <img
+                class="w-full h-full object-cover"
+                src="/app/assets/images/blog.png"
+                alt=""
+              />
+            </div>
+
+            <div class="p-4 gap-3 flex flex-col justify-between grow">
+              <div class="gap-3 flex flex-col">
+                <h2 class="text-red-600">Community management</h2>
+                <h3 class="text-black text-[1rem] font-bold">
+                  comment construire et fidéliser une communauté B2B
+                </h3>
+                <p class="text-black text-sm">
+                  À l’heure où tout le monde veut « créer sa communauté »,
+                  comment fonctionnent celles qui existent déjà ? Noémie Coget,
+                  directrice générale de Tech.Rocks, répond à nos questions.
+                </p>
+              </div>
+              <a href="" class="text-red-600"> En savoir plus &gt; </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- navigation entre les pages -->
+        <div class="w-[70%] mx-auto mt-8 overflow-hidden">
+          <div class="flex gap-4 justify-center shrink-0">
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+            <a href="#">4</a>
+            <a href="#">5</a>
+            <a href="#">></a>
+            <a href="#">>></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contacter nous -->
+    <section class="py-10">
+      <div class="container mx-auto px-4 lg:pl-28">
+        <div class="grid lg:grid-cols-2">
+          <div class="flex flex-col text-center lg:text-start gap-10">
+            <h2 class="text-5xl font-bold">
+              <span
+                class="bg-gradient-to-r from-[#F21818] to-[#FFBC2B] bg-clip-text text-transparent"
+                >Contactez-nous</span
+              >
+              pour votre projet publicitaire
+            </h2>
+            <p>
+              <span class="font-bold"
+                >Vous souhaitez booster votre visibilité ?
+              </span>
+              Nos solutions d'affichage publicitaire et de communication
+              digitale sont conçues pour répondre à vos besoins.
+            </p>
+            <p>
+              Contactez notre agence de publicité pour une consultation
+              personnalisée et une stratégie sur-mesure.
+            </p>
+            <a
+              href="#"
+              class="relative lg:self-start text-white font-semibold rounded-full py-2 px-7 overflow-hidden group"
+            >
+              <span
+                class="absolute inset-0 bg-gradient-to-r from-[#F21818] via-[#F21818] to-[#FFBC2B] bg-[length:150%_100%] bg-[position:5 0%_0] transition-all duration-500 ease-out group-hover:bg-[position:100%_0]"
+              ></span>
+              <span class="relative z-10">Demandez un Devis</span>
+            </a>
+
+            <!-- <a
+                  href=""
+                  class="text-white lg:self-start font-semibold bg-gradient-to-r from-[#F21818] from-55% to-[#FFBC2B] rounded-full py-2 px-7"
+                  >Demandez un Devis
+                </a> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Nos Contats -->
+    <footer class="py-10 bg-black">
+      <div class="container mx-auto px-4">
+        <!-- grid container -->
+        <div class="grid lg:grid-cols-5 md:grid-cols-3 gap-5">
+          <div class="lg:col-span-2 md:col-span-3 px-4">
+            <div class="h-[50px] w-[200px] mb-10">
+              <img
+                class="w-full h-full object-cover"
+                src="/app/assets/images/Layer_1 (1).svg"
+                alt=""
+              />
+            </div>
+            <div
+              class="flex flex-col text-center md:text-start grow text-white"
+            >
+              <p class="font-light text-[18px] text-gray-20 md:pr-10">
+                Une agence spécialisée dans l’affichage publicitaire et le
+                marketing digital, offrant des solutions innovantes pour booster
+                votre visibilité au Maroc.
+              </p>
+              <h3 class="font-bold mt-8 mb-4">Suivez-nous</h3>
+            </div>
+            <div class="flex justify-center md:justify-start gap-2">
+              <a href="/"
+                ><div class="w-8 h-8">
+                  <img
+                    class="h-full"
+                    src="/app/assets/images/Group 1.svg"
+                    alt=""
+                  /></div
+              ></a>
+              <a href="/">
+                <div class="w-8 h-8">
+                  <img
+                    class="h-full"
+                    src="/app/assets/images/Group 2.svg"
+                    alt=""
+                  /></div
+              ></a>
+              <a href="/"
+                ><div class="w-8 h-8">
+                  <img
+                    class="h-full"
+                    src="/app/assets/images/Group 20594.svg"
+                    alt=""
+                  /></div
+              ></a>
+            </div>
+          </div>
+          <div
+            class="p-4 text-center md:text-start font-bold flex flex-col gap-6 grow text-white"
+          >
+            <h2>Marketing Digital</h2>
+            <ul
+              class="flex flex-col gap-3 grow font-light text-[12px] text-gray-200"
+            >
+              <li>Community Management</li>
+              <li>Publicité en ligne</li>
+              <li>Vidéo publicitaire</li>
+              <li>Branding</li>
+            </ul>
+          </div>
+          <div
+            class="p-4 text-center md:text-start font-bold flex flex-col gap-6 grow text-white"
+          >
+            <h2>Affichage publicitaire</h2>
+            <ul
+              class="flex flex-col gap-3 grow font-light text-[12px] text-gray-200"
+            >
+              <li>Panneau publicitaire</li>
+              <li>Panneau publicitaire lumineux</li>
+              <li>Panneau publicitaire LED</li>
+              <li>Enseigne publicitaire</li>
+              <li>Panneau publicitaire routier</li>
+            </ul>
+          </div>
+          <div
+            class="p-4 text-center md:text-start font-bold flex flex-col gap-6 grow text-white"
+          >
+            <h2>Liens utiles</h2>
+            <ul
+              class="flex flex-col gap-3 grow font-light text-[12px] text-gray-200"
+            >
+              <a href=""><li>Blog</li></a>
+              <a href=""><li>Mentions légales</li></a>
+              <a href=""><li>Politique de confidentialité</li></a>
+            </ul>
+            <div class="flex flex-col gap-0.5">
+              <h3 class="text-[#CD1A2D]">Contactez-nous</h3>
+              <a href="/"> <span>080 200 60 60</span></a>
+              <a href="/"> <span>contact@digican.ma</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
